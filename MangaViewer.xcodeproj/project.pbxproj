@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30083F402DBBC1D200E4FC06 /* Unrar in Frameworks */ = {isa = PBXBuildFile; productRef = 30083F3F2DBBC1D200E4FC06 /* Unrar */; };
+		30083F432DBBC24900E4FC06 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 30083F422DBBC24900E4FC06 /* ZIPFoundation */; };
+		3084F1A32E39005C00CD6BBC /* mokuro.icon in Resources */ = {isa = PBXBuildFile; fileRef = 3084F1A22E39005C00CD6BBC /* mokuro.icon */; };
+		30C4F50D2DBB804300BC28E3 /* CharacterFilter in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F50C2DBB804300BC28E3 /* CharacterFilter */; };
+		30C4F50F2DBB804300BC28E3 /* IPADic in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F50E2DBB804300BC28E3 /* IPADic */; };
+		30C4F5112DBB804300BC28E3 /* Mecab-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F5102DBB804300BC28E3 /* Mecab-Swift */; };
+		30C4F5132DBB804300BC28E3 /* StringTools in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F5122DBB804300BC28E3 /* StringTools */; };
+		30C4F52C2DBB83C100BC28E3 /* Regex in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F52B2DBB83C100BC28E3 /* Regex */; };
+		30C4F5302DBB84BB00BC28E3 /* WrappingStack in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F52F2DBB84BB00BC28E3 /* WrappingStack */; };
+		30C4F5392DBB882F00BC28E3 /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F5382DBB882F00BC28E3 /* Popovers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30083F3C2DBBC0EC00E4FC06 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		3084F1A22E39005C00CD6BBC /* mokuro.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = mokuro.icon; sourceTree = "<group>"; };
+		30C4F4DD2DBB64A900BC28E3 /* MangaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30C4F4DF2DBB64A900BC28E3 /* MangaViewer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MangaViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C4F4DA2DBB64A900BC28E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C4F50F2DBB804300BC28E3 /* IPADic in Frameworks */,
+				30C4F50D2DBB804300BC28E3 /* CharacterFilter in Frameworks */,
+				30C4F52C2DBB83C100BC28E3 /* Regex in Frameworks */,
+				30C4F5302DBB84BB00BC28E3 /* WrappingStack in Frameworks */,
+				30C4F5392DBB882F00BC28E3 /* Popovers in Frameworks */,
+				30083F402DBBC1D200E4FC06 /* Unrar in Frameworks */,
+				30C4F5112DBB804300BC28E3 /* Mecab-Swift in Frameworks */,
+				30C4F5132DBB804300BC28E3 /* StringTools in Frameworks */,
+				30083F432DBBC24900E4FC06 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C4F4D42DBB64A900BC28E3 = {
+			isa = PBXGroup;
+			children = (
+				30083F3C2DBBC0EC00E4FC06 /* TODO.md */,
+				30C4F4DF2DBB64A900BC28E3 /* MangaViewer */,
+				30C4F4DE2DBB64A900BC28E3 /* Products */,
+				3084F1A22E39005C00CD6BBC /* mokuro.icon */,
+			);
+			sourceTree = "<group>";
+		};
+		30C4F4DE2DBB64A900BC28E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C4F4DD2DBB64A900BC28E3 /* MangaViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C4F4DC2DBB64A900BC28E3 /* MangaViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C4F4E92DBB64AA00BC28E3 /* Build configuration list for PBXNativeTarget "MangaViewer" */;
+			buildPhases = (
+				30C4F4D92DBB64A900BC28E3 /* Sources */,
+				30C4F4DA2DBB64A900BC28E3 /* Frameworks */,
+				30C4F4DB2DBB64A900BC28E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30C4F4DF2DBB64A900BC28E3 /* MangaViewer */,
+			);
+			name = MangaViewer;
+			packageProductDependencies = (
+				30C4F50C2DBB804300BC28E3 /* CharacterFilter */,
+				30C4F50E2DBB804300BC28E3 /* IPADic */,
+				30C4F5102DBB804300BC28E3 /* Mecab-Swift */,
+				30C4F5122DBB804300BC28E3 /* StringTools */,
+				30C4F52B2DBB83C100BC28E3 /* Regex */,
+				30C4F52F2DBB84BB00BC28E3 /* WrappingStack */,
+				30C4F5382DBB882F00BC28E3 /* Popovers */,
+				30083F3F2DBBC1D200E4FC06 /* Unrar */,
+				30083F422DBBC24900E4FC06 /* ZIPFoundation */,
+			);
+			productName = MangaViewer;
+			productReference = 30C4F4DD2DBB64A900BC28E3 /* MangaViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C4F4D52DBB64A900BC28E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					30C4F4DC2DBB64A900BC28E3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 30C4F4D82DBB64A900BC28E3 /* Build configuration list for PBXProject "MangaViewer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C4F4D42DBB64A900BC28E3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				30C4F50B2DBB804300BC28E3 /* XCRemoteSwiftPackageReference "Mecab-Swift" */,
+				30C4F52A2DBB83C100BC28E3 /* XCRemoteSwiftPackageReference "Regex" */,
+				30C4F52E2DBB84BB00BC28E3 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */,
+				30C4F5372DBB882F00BC28E3 /* XCRemoteSwiftPackageReference "Popovers" */,
+				30083F3E2DBBC1D200E4FC06 /* XCRemoteSwiftPackageReference "Unrar" */,
+				30083F412DBBC24900E4FC06 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 30C4F4DE2DBB64A900BC28E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C4F4DC2DBB64A900BC28E3 /* MangaViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C4F4DB2DBB64A900BC28E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3084F1A32E39005C00CD6BBC /* mokuro.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C4F4D92DBB64A900BC28E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30C4F4E72DBB64AA00BC28E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 935UX4ESD7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30C4F4E82DBB64AA00BC28E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 935UX4ESD7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		30C4F4EA2DBB64AA00BC28E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = mokuro;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MangaViewer/MangaViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 935UX4ESD7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.map.MangaViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		30C4F4EB2DBB64AA00BC28E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = mokuro;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MangaViewer/MangaViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 935UX4ESD7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.map.MangaViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C4F4D82DBB64A900BC28E3 /* Build configuration list for PBXProject "MangaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C4F4E72DBB64AA00BC28E3 /* Debug */,
+				30C4F4E82DBB64AA00BC28E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C4F4E92DBB64AA00BC28E3 /* Build configuration list for PBXNativeTarget "MangaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C4F4EA2DBB64AA00BC28E3 /* Debug */,
+				30C4F4EB2DBB64AA00BC28E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30083F3E2DBBC1D200E4FC06 /* XCRemoteSwiftPackageReference "Unrar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtgto/Unrar.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.2;
+			};
+		};
+		30083F412DBBC24900E4FC06 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+		30C4F50B2DBB804300BC28E3 /* XCRemoteSwiftPackageReference "Mecab-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shinjukunian/Mecab-Swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		30C4F52A2DBB83C100BC28E3 /* XCRemoteSwiftPackageReference "Regex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sharplet/Regex";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		30C4F52E2DBB84BB00BC28E3 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/swiftui-wrapping-stack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		30C4F5372DBB882F00BC28E3 /* XCRemoteSwiftPackageReference "Popovers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/Popovers";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30083F3F2DBBC1D200E4FC06 /* Unrar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30083F3E2DBBC1D200E4FC06 /* XCRemoteSwiftPackageReference "Unrar" */;
+			productName = Unrar;
+		};
+		30083F422DBBC24900E4FC06 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30083F412DBBC24900E4FC06 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		30C4F50C2DBB804300BC28E3 /* CharacterFilter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F50B2DBB804300BC28E3 /* XCRemoteSwiftPackageReference "Mecab-Swift" */;
+			productName = CharacterFilter;
+		};
+		30C4F50E2DBB804300BC28E3 /* IPADic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F50B2DBB804300BC28E3 /* XCRemoteSwiftPackageReference "Mecab-Swift" */;
+			productName = IPADic;
+		};
+		30C4F5102DBB804300BC28E3 /* Mecab-Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F50B2DBB804300BC28E3 /* XCRemoteSwiftPackageReference "Mecab-Swift" */;
+			productName = "Mecab-Swift";
+		};
+		30C4F5122DBB804300BC28E3 /* StringTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F50B2DBB804300BC28E3 /* XCRemoteSwiftPackageReference "Mecab-Swift" */;
+			productName = StringTools;
+		};
+		30C4F52B2DBB83C100BC28E3 /* Regex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F52A2DBB83C100BC28E3 /* XCRemoteSwiftPackageReference "Regex" */;
+			productName = Regex;
+		};
+		30C4F52F2DBB84BB00BC28E3 /* WrappingStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F52E2DBB84BB00BC28E3 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */;
+			productName = WrappingStack;
+		};
+		30C4F5382DBB882F00BC28E3 /* Popovers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C4F5372DBB882F00BC28E3 /* XCRemoteSwiftPackageReference "Popovers" */;
+			productName = Popovers;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 30C4F4D52DBB64A900BC28E3 /* Project object */;
+}
