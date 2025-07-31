@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		30083F402DBBC1D200E4FC06 /* Unrar in Frameworks */ = {isa = PBXBuildFile; productRef = 30083F3F2DBBC1D200E4FC06 /* Unrar */; };
 		30083F432DBBC24900E4FC06 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 30083F422DBBC24900E4FC06 /* ZIPFoundation */; };
-		3084F1A32E39005C00CD6BBC /* mokuro.icon in Resources */ = {isa = PBXBuildFile; fileRef = 3084F1A22E39005C00CD6BBC /* mokuro.icon */; };
 		30C4F50D2DBB804300BC28E3 /* CharacterFilter in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F50C2DBB804300BC28E3 /* CharacterFilter */; };
 		30C4F50F2DBB804300BC28E3 /* IPADic in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F50E2DBB804300BC28E3 /* IPADic */; };
 		30C4F5112DBB804300BC28E3 /* Mecab-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 30C4F5102DBB804300BC28E3 /* Mecab-Swift */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		30083F3C2DBBC0EC00E4FC06 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
-		3084F1A22E39005C00CD6BBC /* mokuro.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = mokuro.icon; sourceTree = "<group>"; };
 		30C4F4DD2DBB64A900BC28E3 /* MangaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,7 +57,6 @@
 				30083F3C2DBBC0EC00E4FC06 /* TODO.md */,
 				30C4F4DF2DBB64A900BC28E3 /* MangaViewer */,
 				30C4F4DE2DBB64A900BC28E3 /* Products */,
-				3084F1A22E39005C00CD6BBC /* mokuro.icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,7 +149,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3084F1A32E39005C00CD6BBC /* mokuro.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +284,7 @@
 		30C4F4EA2DBB64AA00BC28E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = mokuro;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MangaViewer/MangaViewer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,7 +293,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -308,7 +303,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -321,14 +316,14 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Debug;
 		};
 		30C4F4EB2DBB64AA00BC28E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = mokuro;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MangaViewer/MangaViewer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -337,7 +332,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -348,7 +342,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -361,7 +355,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Release;
 		};

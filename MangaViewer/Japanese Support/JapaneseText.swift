@@ -90,7 +90,7 @@ public struct JapaneseText {
             elements = []
         }
     }
-
+    
     var elements: [JapaneseText.Element] = []
 }
 

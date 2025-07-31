@@ -24,15 +24,14 @@ struct JapaneseTextElementView: View {
                 .bold()
                 .foregroundColor(.white)
                 .hidden(!element.hasFurigana)
-                .textSelection(.disabled)
+                .textSelection(.enabled)
             Text(element.text)
                 .font(.title2)
                 .bold()
                 .foregroundColor(.white)
                 .customStroke(color: element.color, width: 0.5)
-                .textSelection(.disabled)
+                .textSelection(.enabled)
         }
-        .contentShape(Rectangle())
         .onTapGesture {
             showsPopover = true
         }
@@ -47,7 +46,6 @@ struct JapaneseTextElementView: View {
                 .onTapGesture {
                     showsPopover = false
                 }
-
         }
 
     }
